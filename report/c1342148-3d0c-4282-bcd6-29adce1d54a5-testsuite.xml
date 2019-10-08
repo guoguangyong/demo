@@ -1,0 +1,76 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1570537539456" stop="1570537614257">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1570537539456" status="passed" stop="1570537575798">
+      <name>test_add_del_message.Test_Message_Option.test_add_del_message</name>
+      <attachments>
+        <attachment source="76e9fe6a-f29d-4545-979e-141d49c3d876-attachment.txt" title="输入短信内容" type="text/plain"/>
+        <attachment source="4f1cc050-dd66-41a1-840b-fe2e1d9cc68d-attachment.png" title="发送成功截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8744-MainThread"/>
+        <label name="host" value="DAIYU"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1570537556095" status="passed" stop="1570537562134">
+          <name>进行输入及发送操作</name>
+          <title>进行输入及发送操作</title>
+          <attachments>
+            <attachment source="468add21-3bb9-4110-8d27-87a271836027-attachment.txt" title="输入接收者的电话号码" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1570537583482" status="failed" stop="1570537595426">
+      <name>test_add_del_message.Test_Message_Option.test_scripts001</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_add_del_message.Test_Message_Option object at 0x0000000004591390&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test_scripts001(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_add_del_message.py:28: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="8744-MainThread"/>
+        <label name="host" value="DAIYU"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1570537602969" status="failed" stop="1570537614257">
+      <name>test_add_del_message.Test_Message_Option.test_scripts002</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_add_del_message.Test_Message_Option object at 0x00000000047AD160&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    def test_scripts002(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_add_del_message.py:32: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="8744-MainThread"/>
+        <label name="host" value="DAIYU"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

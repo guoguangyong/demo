@@ -1,11 +1,31 @@
 [ {
-  "uid" : "442ca64ab59034b7",
+  "uid" : "b1b29009fcbc948b",
   "name" : "test_add_del_message.Test_Message_Option.test_add_del_message",
   "time" : {
-    "start" : 1570533841536,
-    "stop" : 1570533869522,
-    "duration" : 27986
+    "start" : 1570537539456,
+    "stop" : 1570537575798,
+    "duration" : 36342
   },
   "status" : "passed",
   "severity" : "normal"
+}, {
+  "uid" : "9d90ce6a7d2520c7",
+  "name" : "test_add_del_message.Test_Message_Option.test_scripts001",
+  "time" : {
+    "start" : 1570537583482,
+    "stop" : 1570537595426,
+    "duration" : 11944
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a125b1c96b36257a",
+  "name" : "test_add_del_message.Test_Message_Option.test_scripts002",
+  "time" : {
+    "start" : 1570537602969,
+    "stop" : 1570537614257,
+    "duration" : 11288
+  },
+  "status" : "failed",
+  "severity" : "blocker"
 } ]

@@ -1,0 +1,66 @@
+{
+  "uid" : "9d90ce6a7d2520c7",
+  "name" : "test_add_del_message.Test_Message_Option.test_scripts001",
+  "fullName" : "scripts.test_add_del_message.Test_Message_Option.test_scripts001",
+  "historyId" : "888a290f46a788a83358d46905ca7a44",
+  "time" : {
+    "start" : 1570537583482,
+    "stop" : 1570537595426,
+    "duration" : 11944
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_add_del_message.Test_Message_Option object at 0x0000000004591390>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_scripts001(self):\n>       assert 0\nE       assert 0\n\nscripts\\test_add_del_message.py:28: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DAIYU"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "8744-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_add_del_message.Test_Message_Option.test_scripts001"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9d90ce6a7d2520c7.json",
+  "parameterValues" : [ ]
+}

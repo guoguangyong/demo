@@ -1,2 +1,4 @@
 "Status","Name","Duration in ms","Description"
-"passed","scripts.test_add_del_message.Test_Message_Option.test_add_del_message","27986",""
+"passed","scripts.test_add_del_message.Test_Message_Option.test_add_del_message","36342",""
+"failed","scripts.test_add_del_message.Test_Message_Option.test_scripts001","11944",""
+"failed","scripts.test_add_del_message.Test_Message_Option.test_scripts002","11288",""

@@ -1,0 +1,103 @@
+{
+  "uid" : "b1b29009fcbc948b",
+  "name" : "test_add_del_message.Test_Message_Option.test_add_del_message",
+  "fullName" : "scripts.test_add_del_message.Test_Message_Option.test_add_del_message",
+  "historyId" : "1abe4eaa241828b0f383f97a8a22c632",
+  "time" : {
+    "start" : 1570537539456,
+    "stop" : 1570537575798,
+    "duration" : 36342
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进行输入及发送操作",
+      "time" : {
+        "start" : 1570537556095,
+        "stop" : 1570537562134,
+        "duration" : 6039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c87443a1ef1e4cad",
+        "name" : "输入接收者的电话号码",
+        "source" : "c87443a1ef1e4cad.txt",
+        "type" : "text/plain",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6ac379072b88f202",
+      "name" : "输入短信内容",
+      "source" : "6ac379072b88f202.txt",
+      "type" : "text/plain",
+      "size" : 9
+    }, {
+      "uid" : "1343b1d8497fa950",
+      "name" : "发送成功截图",
+      "source" : "1343b1d8497fa950.png",
+      "type" : "image/png",
+      "size" : 966243
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DAIYU"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8744-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_add_del_message.Test_Message_Option.test_add_del_message"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1b29009fcbc948b.json",
+  "parameterValues" : [ ]
+}
