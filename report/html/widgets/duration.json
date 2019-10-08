@@ -1,0 +1,11 @@
+[ {
+  "uid" : "442ca64ab59034b7",
+  "name" : "test_add_del_message.Test_Message_Option.test_add_del_message",
+  "time" : {
+    "start" : 1570533841536,
+    "stop" : 1570533869522,
+    "duration" : 27986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

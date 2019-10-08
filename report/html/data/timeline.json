@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DAIYU",
+    "children" : [ {
+      "name" : "7100-MainThread",
+      "children" : [ {
+        "name" : "test_add_del_message.Test_Message_Option.test_add_del_message",
+        "uid" : "442ca64ab59034b7",
+        "parentUid" : "541110e8866bd8387ae0257027c9c3ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1570533841536,
+          "stop" : 1570533869522,
+          "duration" : 27986
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "541110e8866bd8387ae0257027c9c3ba"
+    } ],
+    "uid" : "c6bb4bce529b7b35b1ac6e94d6278d42"
+  } ]
+}
